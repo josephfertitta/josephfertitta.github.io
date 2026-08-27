@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio B — Photography</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="sidebar">
+    <a href="index.html" class="site-title">Your Name</a>
+    <ul class="nav-list">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="bio.html" class="nav-link">Bio</a></li>
+      <li><a href="portfolio-a.html" class="nav-link">Portfolio A</a></li>
+      <li><a href="portfolio-b.html" class="nav-link active">Portfolio B</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <!--
+      Same horizontal strip layout as Portfolio A. To add a photo: drop the
+      file in images/portfolio-b/ and add an <img> tag below, then add its
+      path to PORTFOLIO_B_IMAGES in main.js so it's eligible for the
+      homepage's random hero image.
+    -->
+    <div class="strip-wrapper">
+      <div class="strip">
+        <img class="strip-image" src="images/portfolio-b/b1.jpg" alt="Portfolio B, photo 1" />
+        <img class="strip-image" src="images/portfolio-b/b2.jpg" alt="Portfolio B, photo 2" />
+        <img class="strip-image" src="images/portfolio-b/b3.jpg" alt="Portfolio B, photo 3" />
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

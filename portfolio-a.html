@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio A — Photography</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="sidebar">
+    <a href="index.html" class="site-title">Your Name</a>
+    <ul class="nav-list">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="bio.html" class="nav-link">Bio</a></li>
+      <li><a href="portfolio-a.html" class="nav-link active">Portfolio A</a></li>
+      <li><a href="portfolio-b.html" class="nav-link">Portfolio B</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <!--
+      Horizontal scroll strip. Each image is full viewport height and scales
+      its own width to keep its natural aspect ratio (see .strip-image in
+      style.css). To add a photo: drop the file in images/portfolio-a/ and
+      add an <img> tag below, then add its path to PORTFOLIO_A_IMAGES in
+      main.js so it's eligible for the homepage's random hero image.
+    -->
+    <div class="strip-wrapper">
+      <div class="strip">
+        <img class="strip-image" src="images/portfolio-a/a1.jpg" alt="Portfolio A, photo 1" />
+        <img class="strip-image" src="images/portfolio-a/a2.jpg" alt="Portfolio A, photo 2" />
+        <img class="strip-image" src="images/portfolio-a/a3.jpg" alt="Portfolio A, photo 3" />
+        <img class="strip-image" src="images/portfolio-a/a4.jpg" alt="Portfolio A, photo 4" />
+        <img class="strip-image" src="images/portfolio-a/a5.jpg" alt="Portfolio A, photo 5" />
+        <img class="strip-image" src="images/portfolio-a/a6.jpg" alt="Portfolio A, photo 6" />
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
